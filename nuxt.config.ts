@@ -78,7 +78,7 @@ export default defineNuxtConfig({
 			name: 'MP Solutions',
 			short_name: 'MP Solutions',
 			description: 'MP Solutions is a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. With a passion for excellence and a commitment to cutting-edge technologies, we empower businesses to thrive in the digital age.',
-			theme_color: '#e5f0ff',
+			theme_color: '#fdf2f8',
 			background_color: '#ffffff',
 			icons: [
 				{

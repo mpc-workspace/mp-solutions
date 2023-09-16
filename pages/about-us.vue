@@ -3,7 +3,7 @@
 
     <section class="py-24">
         <div class="container flex flex-col items-center mx-auto text-center">
-            <h2 class="max-w-2xl mx-auto text-3xl font-bold tracking-tight text-gray-70 xl:text-4xl" data-aos="fade-up" data-aos-duration="100">
+            <h2 class="section-title text-gradient" data-aos="fade-up" data-aos-duration="100">
               Our Mission
             </h2>
 
@@ -16,16 +16,16 @@
     <section class="py-24 bg-gray-50">
         <div class="container flex flex-col items-center xl:flex-row">
             <div class="flex justify-center xl:w-1/2">
-                <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full" src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
+                <img class="h-auto w-auto sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
             </div>
 
-            <div class="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
+            <div class="flex flex-col text-center xl:text-start mt-6 xl:items-start xl:w-1/2 xl:mt-0">
                 <h2 class="section-title text-gradient">
                     Who We Are
                 </h2>
 
                 <p class="block max-w-2xl mt-4 text-gray-500 dark:text-gray-300">
-                    MP Solutions is a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. With a passion for excellence and a commitment to cutting-edge technologies, we empower businesses to thrive in the digital age.
+                    MP Solutions was founded with a vision to simplify complexity and catalyze progress through technology. Our journey began with a small team of passionate tech enthusiasts who shared a common goal: to provide innovative solutions that transform businesses. Today, we are proud to be a leading technology company, driven by our commitment to excellence, innovation, integrity, collaboration, and customer-centricity.
                 </p>
             </div>
         </div>
@@ -33,13 +33,8 @@
 
     <section class="py-24">
         <div class="container">
-            <h1 class="section-title text-gradient">Core Values</h1>
-
-            <div class="mt-2">
-                <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-                <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            </div>
+            <h2 class="section-title text-gradient">Core Values</h2>
+            <p class="mt-4 text-gray-500 xl:mt-3 lg:max-w-2xl">We pursue excellence in everything we do, constantly innovate to stay ahead, conduct business with integrity and transparency, foster collaboration within our team and with our clients, and always prioritize the needs and satisfaction of our customers.</p>
 
             <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
                 <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
@@ -120,7 +115,7 @@
 
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
                 <div class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-gray-600 dark:border-gray-700 dark:hover:border-transparent">
-                    <div class="flex flex-col sm:-mx-4 sm:flex-row">
+                    <div class="flex flex-col items-center sm:-mx-4 sm:flex-row">
                         <div class="w-24 h-24 rounded-full bg-gray-50 sm:mx-4 ring-4 ring-gray-300">
                             
                         </div>
@@ -131,12 +126,10 @@
                             <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">design director</p>
                         </div>
                     </div>
-
-                    <p class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.</p>
                 </div>
 
                 <div class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-gray-600 dark:border-gray-700 dark:hover:border-transparent">
-                    <div class="flex flex-col sm:-mx-4 sm:flex-row">
+                    <div class="flex flex-col items-center sm:-mx-4 sm:flex-row">
                         <div class="w-24 h-24 rounded-full bg-gray-50 sm:mx-4 ring-4 ring-gray-300">
                             
                         </div>
@@ -147,12 +140,10 @@
                             <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Marketing Manager</p>
                         </div>
                     </div>
-
-                    <p class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.</p>
                 </div>
 
                 <div class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-gray-600 dark:border-gray-700 dark:hover:border-transparent">
-                    <div class="flex flex-col sm:-mx-4 sm:flex-row">
+                    <div class="flex flex-col items-center sm:-mx-4 sm:flex-row">
                         <div class="w-24 h-24 rounded-full bg-gray-50 sm:mx-4 ring-4 ring-gray-300">
 
                         </div>
@@ -163,12 +154,10 @@
                             <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Software Engineer</p>
                         </div>
                     </div>
-
-                    <p class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.</p>
                 </div>
 
                 <div class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-gray-600 dark:border-gray-700 dark:hover:border-transparent">
-                    <div class="flex flex-col sm:-mx-4 sm:flex-row">
+                    <div class="flex flex-col items-center sm:-mx-4 sm:flex-row">
                         <div class="w-24 h-24 rounded-full bg-gray-50 sm:mx-4 ring-4 ring-gray-300">
                             <!-- <img class="flex-shrink-0 object-cover w-24 h-24 rounded-full" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""> -->
                         </div>
@@ -179,8 +168,6 @@
                             <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Front-end Engineer</p>
                         </div>
                     </div>
-
-                    <p class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt officia aliquam neque optio? Cumque facere numquam est.</p>
                 </div>
             </div>
         </div>

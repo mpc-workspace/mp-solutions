@@ -45,7 +45,6 @@
                     <p class="font-semibold text-gray-400">Contact Us</p>
 
                     <div class="flex flex-col items-start mt-5 space-y-2">
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">CSFP, St. Kolbe Estate 1 Brgy. Saguin Milk Palm Lot 1 B24-26</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">+63 45-455-1040</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">info@example.com</a>
                     </div>

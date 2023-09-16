@@ -4,7 +4,7 @@
         ogTitle: 'MP Solutions',
         description: 'MP Solutions a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. ',
         ogDescription: 'MP Solutions a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. ',
-        ogImage: '@/assets/img/logo.svg',
+        ogImage: '~/assets/img/logo.png',
     })
 </script>
 
