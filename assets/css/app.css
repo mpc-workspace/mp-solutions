@@ -4,7 +4,7 @@
 
 @layer base {
     :root {
-        font-family: 'Heebo', sans-serif;
+        font-family: 'Inter', sans-serif;
     }
 }
 
@@ -73,5 +73,9 @@
     /* Title */
     .text-gradient {
         @apply text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500;
+    }
+
+    .section-title {
+        @apply text-3xl font-bold tracking-tight capitalize lg:text-4xl;
     }
 }

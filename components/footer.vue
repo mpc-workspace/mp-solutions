@@ -9,6 +9,7 @@
                         <NuxtLink to="/" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Home</NuxtLink>
                         <NuxtLink to="/about-us" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Who We Are</NuxtLink>
                         <NuxtLink to="/services" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Our Services</NuxtLink>
+                        <NuxtLink to="/how-we-work" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">How We Work</NuxtLink>
                         <NuxtLink to="/projects" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Our Projects</NuxtLink>
                         <NuxtLink to="/contact-us" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Contact Us</NuxtLink>
                     </div>
@@ -46,7 +47,7 @@
                     <div class="flex flex-col items-start mt-5 space-y-2">
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">CSFP, St. Kolbe Estate 1 Brgy. Saguin Milk Palm Lot 1 B24-26</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">+63 45-455-1040</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">info@gocloudgroup.com</a>
+                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">info@example.com</a>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: { enabled: true },
+    devtools: { enabled: false },
 	experimental: {
 		payloadExtraction: false
 	},
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 				{
 					rel: 'icon',
 					type: 'image/png',
-					href: '/gocloud/logo.png',
+					href: 'favicon.ico',
 				},
 				{
 					rel: "preconnect",
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
 				},
 				{
 					rel: "stylesheet",
-					href: "https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap",
+					href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
 				},
 			],
 		}

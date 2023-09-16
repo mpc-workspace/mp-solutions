@@ -1,26 +1,28 @@
 <template>
-    <nav class="navbar px-6 lg:px-12 py-8 mx-auto fixed top-0 w-full z-10 lg:flex lg:justify-between lg:items-center">
+    <nav class="navbar px-6 lg:px-12 py-8 mx-auto fixed top-0 w-full z-20 lg:flex lg:justify-between lg:items-center">
         <div class="flex items-center justify-between">
             <NuxtLink to="/" class="text-2xl text-gray-700 font-bold flex items-center gap-2">
-                <img class="w-full h-10" src="../public/logo.svg" width="32" height="32" alt="Gocloud Inc.">
+                <img class="w-full h-10" src="/logo.svg" width="32" height="32" alt="Gocloud Inc.">
                 Solutions
             </NuxtLink>
 
             <!-- Mobile menu button -->
             <div class="flex lg:hidden">
-                <button class="text-gray-700 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
+                <button @click="toggleDrawer" type="button" class="text-gray-700 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M2 5.75A.75.75 0 0 1 2.75 5h15.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 5.75Zm0 12a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75ZM2.75 11a.75.75 0 0 0 0 1.5h18.5a.75.75 0 0 0 0-1.5H2.75Z"/></svg>
                 </button>
             </div>
         </div>
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-        <div class="absolute inset-x-0 px-8 py-6 transition-all duration-300 ease-in-out bg-white shadow-md lg:shadow-none lg:mt-0 lg:p-0 lg:top-0 lg:bg-transparent lg:relative lg:w-auto lg:flex lg:items-center hidden">
+        <div class="px-8 py-6 transition-all duration-300 ease-in-out bg-white shadow-md lg:shadow-none lg:mt-0 lg:p-0 lg:top-0 lg:bg-transparent lg:relative lg:w-auto lg:flex lg:items-center hidden">
             <div class="flex flex-col text-center justify-center space-y-8 lg:mt-0 lg:flex-row lg:space-y-0">
+                <NuxtLink to="/" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Home</NuxtLink>
                 <NuxtLink to="/about-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">About Us</NuxtLink>
                 <NuxtLink to="/services" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Services</NuxtLink>
+                <NuxtLink to="/how-we-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">How We Work</NuxtLink>
                 <NuxtLink to="/projects" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Projects</NuxtLink>
-                <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Contact</NuxtLink>
+                <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Contact Us</NuxtLink>
             </div>
         </div>
 
@@ -37,13 +39,24 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216a4.61 4.61 0 0 0-2.633-2.633a6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42a4.607 4.607 0 0 0-2.633 2.633a6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632a6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419a4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187c.043-.962.056-1.267.056-3.71c-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078a1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"/><circle cx="11.994" cy="11.979" r="3.003" fill="currentColor"/></svg>
             </a>
         </div>
-
     </nav>
+    
+    <DrawerNavMenu v-show="isDrawerOpen" @click="toggleDrawer" />
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const isDrawerOpen = ref(false);
+
+const toggleDrawer = () => {
+    isDrawerOpen.value = !isDrawerOpen.value;
+};
+</script>
 
 <style lang="css" scoped>
     nav.stay-sticky {
-        @apply bg-white py-5 shadow-sm transition-all duration-300 ease-in-out;
+        @apply bg-white py-5 shadow-md transition-all duration-300 ease-in-out;
     }
 
     /* nav .router-link-exact-active {
