@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 		payloadExtraction: false
 	},
 	app: {
-		baseURL: '/jem-solutions/',
+		baseURL: '/mp-solutions/',
     	buildAssetsDir: 'assets',
 		head: {
 			htmlAttrs: {
@@ -75,9 +75,9 @@ export default defineNuxtConfig({
 	],
 	pwa: {
 		manifest: {
-			name: 'JEM Solutions',
-			short_name: 'JEM Solutions',
-			description: 'JEM Solutions is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
+			name: 'MP Solutions',
+			short_name: 'MP Solutions',
+			description: 'MP Solutions is a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. With a passion for excellence and a commitment to cutting-edge technologies, we empower businesses to thrive in the digital age.',
 			theme_color: '#e5f0ff',
 			background_color: '#ffffff',
 			icons: [
@@ -107,7 +107,7 @@ export default defineNuxtConfig({
 		},
 		registerType: 'autoUpdate',
 		workbox: {
-			navigateFallback: '/gocloud/',
+			navigateFallback: '/mp-solutions/',
 			clientsClaim: true,
 			skipWaiting: true
 		},

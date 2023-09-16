@@ -1,8 +1,9 @@
 <template>
     <nav class="navbar px-6 lg:px-12 py-8 mx-auto fixed top-0 w-full z-10 lg:flex lg:justify-between lg:items-center">
         <div class="flex items-center justify-between">
-            <NuxtLink to="/" class="text-2xl text-gray-700 font-bold">
-                JEM Solutions
+            <NuxtLink to="/" class="text-2xl text-gray-700 font-bold flex items-center gap-2">
+                <img class="w-full h-10" src="../public/logo.svg" width="32" height="32" alt="Gocloud Inc.">
+                Solutions
             </NuxtLink>
 
             <!-- Mobile menu button -->

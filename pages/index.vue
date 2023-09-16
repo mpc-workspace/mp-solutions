@@ -1,10 +1,10 @@
 <script setup lang="ts">
     useSeoMeta({
-        title: 'JEM Solutions',
-        ogTitle: 'JEM Solutions',
-        description: 'JEM Solutions is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
-        ogDescription: 'JEM Solutions is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
-        ogImage: '@/assets/img/logo.png',
+        title: 'MP Solutions',
+        ogTitle: 'MP Solutions',
+        description: 'MP Solutions a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. ',
+        ogDescription: 'MP Solutions a forward-thinking technology company dedicated to providing innovative and customized solutions to meet the diverse needs of our clients. ',
+        ogImage: '@/assets/img/logo.svg',
     })
 </script>
 
@@ -45,7 +45,7 @@
             </h2>
 
             <p class="max-w-4xl mt-6 text-center text-base text-gray-500" data-aos="fade-up" data-aos-duration="200">
-                At JEM Solutions, our mission is to simplify complexity and catalyze progress through technology. We strive to deliver exceptional value to our clients by leveraging our expertise and creativity to develop tailored solutions that drive efficiency, growth, and success.
+                At MP Solutions, our mission is to simplify complexity and catalyze progress through technology. We strive to deliver exceptional value to our clients by leveraging our expertise and creativity to develop tailored solutions that drive efficiency, growth, and success.
             </p>
         </div>
     </section>
@@ -103,7 +103,7 @@
             <div class="flex flex-wrap lg:flex-nowrap items-center justify-between lg:gap-24">
                 <div data-aos="fade-up">
                     <h2 class="text-gradient text-5xl font-bold capitalize">
-                        Why Choose JEM Solutions
+                        Why Choose MP Solutions
                     </h2>
         
                     <p class="my-6 text-gray-500 xl:mt-3">
