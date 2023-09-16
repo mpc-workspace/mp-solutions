@@ -54,7 +54,7 @@
             <hr class="my-6 border-gray-500 md:my-10">
             
             <div class="flex flex-col items-center justify-between sm:flex-row">
-                <p class="mt-4 text-sm text-gray-300 sm:mt-0">© Copyright 2023 JEM Solutions. All Rights Reserved.</p>
+                <p class="mt-4 text-sm text-gray-300 sm:mt-0">© Copyright 2023 MP Solutions. All Rights Reserved.</p>
 
                 <div class="flex mt-3 -mx-2 sm:mt-0">
                     <NuxtLink to="/terms-and-conditions" class="mx-2 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-200">Terms of Use</NuxtLink>

@@ -5,9 +5,9 @@
         <div class="container">
             <h4>1. Introduction</h4> 
 
-            <p>Welcome to GOCLOUD Inc..</p>
+            <p>Welcome to MP Solutions.</p>
 
-            <p><strong>GOCLOUD Inc.</strong> (“us”, “we”, or “our”) operates www.gocloudgroup.com (hereinafter referred to as “Service”).</p>
+            <p><strong>MP Solutions</strong> (“us”, “we”, or “our”) operates www.gocloudgroup.com (hereinafter referred to as “Service”).</p>
 
             <p>Our Privacy Policy governs your visit to www.gocloudgroup.com, and explains how we collect, safeguard and disclose information that results from your use of our Service.</p>
 
@@ -17,7 +17,7 @@
 
             <h4 class="mt-5">2. Definitions</h4>
 
-            <p><strong>SERVICE</strong> means the www.gocloudgroup.com website operated by <strong>GOCLOUD Inc.</strong>.</p>
+            <p><strong>SERVICE</strong> means the www.gocloudgroup.com website operated by <strong>MP Solutions</strong>.</p>
 
             <p><strong>PERSONAL DATA</strong> means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
 
@@ -90,7 +90,7 @@
 
             <h4 class="mt-5">5. Use of Data</h4>
 
-            <p><strong>GOCLOUD Inc. uses the collected data for various purposes:</strong></p>
+            <p><strong>MP Solutions uses the collected data for various purposes:</strong></p>
 
             <ol type="1">
                 <li>to provide and maintain our Service;</li>
@@ -275,7 +275,7 @@
 
             <h4 class="mt-5">21. Contact Us</h4>
 
-            <p>If you have any questions about this Privacy Policy, please contact us by email: solutions@gocloud.asia.</p>
+            <p>If you have any questions about this Privacy Policy, please contact us by email: solutions@example.com.</p>
         </div>
     </section>
 </template>
