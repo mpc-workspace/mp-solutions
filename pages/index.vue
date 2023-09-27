@@ -183,30 +183,4 @@
             </div>
         </div>
     </section>
-
-    <section class="py-24">
-        <div class="container">
-            <div class="flex flex-wrap items-center justify-between gap-4">
-                <div>
-                    <h2 class="section-title text-gradient" data-aos="fade-up" data-aos-duration="100">
-                        Our Works
-                    </h2>
-        
-                    <p class="mt-4 text-gray-500 xl:mt-3" data-aos="fade-up" data-aos-duration="500">
-                        Providing you with systems to process industry relevant data
-                    </p>
-                </div>
-    
-                <NuxtLink to="/projects" class="button-secondary">
-                    View all projects
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58a.758.758 0 0 0-.001-.29a.995.995 0 0 0-.3-.578l-7.419-7.067Z"/></svg>
-                </NuxtLink>
-            </div>
-
-            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 md:grid-cols-2 xl:grid-cols-4" data-aos="fade-up">
-                <Products></Products>
-            </div>
-        </div>
-    </section>
 </template>

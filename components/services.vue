@@ -18,23 +18,6 @@
 
     <div class="p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
         <span class="inline-block text-orange-500 dark:text-blue-400">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M15.75 2A2.25 2.25 0 0 1 18 4.25v15.5A2.25 2.25 0 0 1 15.75 22h-7.5A2.25 2.25 0 0 1 6 19.75V4.25A2.25 2.25 0 0 1 8.25 2h7.5zm0 1.5h-7.5a.75.75 0 0 0-.75.75v15.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 .75-.75V4.25a.75.75 0 0 0-.75-.75zm-2.501 14a.75.75 0 0 1 .002 1.5l-2.5.004a.75.75 0 0 1-.002-1.5l2.5-.004z" fill="currentColor" fill-rule="nonzero"/></svg>
-        </span>
-
-        <h1 class="text-xl font-bold text-gray-700 capitalize">Mobile App Development</h1>
-
-        <div class="flex mx-auto">
-            <span class="inline-block w-16 h-1.5 bg-orange-500 rounded-full"></span>
-            <span class="inline-block w-6 h-1.5 mx-1 bg-orange-500 rounded-full"></span>
-        </div>
-
-        <p class="text-gray-500 dark:text-gray-300">
-            We develop high-quality mobile apps that are tailored to your specific needs and requirements.
-        </p>
-    </div>
-
-    <div class="p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
-        <span class="inline-block text-orange-500 dark:text-blue-400">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.998c5.524 0 10.002 4.478 10.002 10.002c0 5.523-4.478 10-10.002 10c-5.524.001-10-4.477-10-10C1.999 6.476 6.476 1.998 12 1.998ZM14.94 16.5H9.061c.652 2.415 1.786 4.002 2.94 4.002c1.153 0 2.286-1.588 2.938-4.002Zm-7.43 0H4.785a8.532 8.532 0 0 0 4.095 3.41c-.522-.82-.953-1.846-1.27-3.015l-.102-.395Zm11.705 0h-2.722c-.324 1.335-.792 2.5-1.373 3.411a8.528 8.528 0 0 0 3.91-3.127l.185-.283ZM7.094 10H3.736l-.005.017A8.523 8.523 0 0 0 3.5 12a8.48 8.48 0 0 0 .544 3h3.173A20.3 20.3 0 0 1 7 12c0-.684.032-1.354.095-2.001Zm8.303 0H8.603a18.968 18.968 0 0 0 .135 5h6.524a18.974 18.974 0 0 0 .135-5Zm4.868 0h-3.358c.062.647.095 1.317.095 2a20.3 20.3 0 0 1-.218 3h3.173a8.484 8.484 0 0 0 .545-3c0-.689-.082-1.359-.237-2ZM8.88 4.088l-.023.008A8.531 8.531 0 0 0 4.25 8.5h3.048c.314-1.752.86-3.278 1.583-4.41ZM12 3.497l-.117.005C10.62 3.62 9.397 5.621 8.83 8.5h6.342c-.566-2.87-1.783-4.869-3.045-4.995L12 3.498Zm3.12.59l.106.175c.67 1.112 1.177 2.572 1.475 4.237h3.048a8.533 8.533 0 0 0-4.339-4.29l-.29-.121Z"/></svg>
         </span>
 

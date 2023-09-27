@@ -21,7 +21,6 @@
                 <NuxtLink to="/about-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">About Us</NuxtLink>
                 <NuxtLink to="/services" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Services</NuxtLink>
                 <NuxtLink to="/how-we-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">How We Work</NuxtLink>
-                <NuxtLink to="/projects" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Projects</NuxtLink>
                 <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Contact Us</NuxtLink>
             </div>
         </div>

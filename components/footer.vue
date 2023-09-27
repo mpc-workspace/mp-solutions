@@ -10,21 +10,7 @@
                         <NuxtLink to="/about-us" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Who We Are</NuxtLink>
                         <NuxtLink to="/services" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Our Services</NuxtLink>
                         <NuxtLink to="/how-we-work" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">How We Work</NuxtLink>
-                        <NuxtLink to="/projects" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Our Projects</NuxtLink>
                         <NuxtLink to="/contact-us" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Contact Us</NuxtLink>
-                    </div>
-                </div>
-
-                <div>
-                    <p class="font-semibold text-gray-400">Projects</p>
-
-                    <div class="flex flex-col items-start mt-5 space-y-2">
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Academe SMS</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Cloudbiz BMS</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Medisync CMR</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Cloudshop</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Offshore Office 360</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Trietrade</a>
                     </div>
                 </div>
 
@@ -33,7 +19,6 @@
 
                     <div class="flex flex-col items-start mt-5 space-y-2">
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Web Design</a>
-                        <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Mobile App Development</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Web Development</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Content Marketing</a>
                         <a href="#" class="text-gray-50 transition-colors duration-300 hover:underline hover:text-blue-50">Social Media Marketing</a>
