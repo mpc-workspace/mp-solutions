@@ -23,11 +23,6 @@
                 </NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/projects" class="block rounded-lg px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
-                    Projects
-                </NuxtLink>
-            </li>
-            <li>
                 <NuxtLink to="/contact-us" class="block rounded-lg px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
                     Contact Us
                 </NuxtLink>
@@ -43,11 +38,6 @@
             <li>
                 <NuxtLink to="/services" class="block rounded-lg px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
                     Web Design
-                </NuxtLink>
-            </li>
-            <li>
-                <NuxtLink to="/services" class="block rounded-lg px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
-                    Mobile App Development
                 </NuxtLink>
             </li>
             <li>
