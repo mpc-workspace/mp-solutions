@@ -72,7 +72,7 @@
 @layer utilities {
     /* Title */
     .text-gradient {
-        @apply text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500;
+        @apply text-transparent bg-gradient-to-tr bg-clip-text from-yellow-500 via-orange-500 to-red-500;
     }
 
     .section-title {

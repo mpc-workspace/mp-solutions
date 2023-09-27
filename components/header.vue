@@ -17,12 +17,12 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div class="px-8 py-6 transition-all duration-300 ease-in-out bg-white shadow-md lg:shadow-none lg:mt-0 lg:p-0 lg:top-0 lg:bg-transparent lg:relative lg:w-auto lg:flex lg:items-center hidden">
             <div class="flex flex-col text-center justify-center space-y-8 lg:mt-0 lg:flex-row lg:space-y-0">
-                <NuxtLink to="/" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Home</NuxtLink>
-                <NuxtLink to="/about-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">About Us</NuxtLink>
-                <NuxtLink to="/services" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Services</NuxtLink>
-                <NuxtLink to="/how-we-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">How We Work</NuxtLink>
-                <NuxtLink to="/projects" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Projects</NuxtLink>
-                <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-blue-500">Contact Us</NuxtLink>
+                <NuxtLink to="/" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Home</NuxtLink>
+                <NuxtLink to="/about-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">About Us</NuxtLink>
+                <NuxtLink to="/services" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Services</NuxtLink>
+                <NuxtLink to="/how-we-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">How We Work</NuxtLink>
+                <NuxtLink to="/projects" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Projects</NuxtLink>
+                <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Contact Us</NuxtLink>
             </div>
         </div>
 
@@ -60,6 +60,6 @@ const toggleDrawer = () => {
     }
 
     /* nav .router-link-exact-active {
-        @apply text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-pink-500 to-red-500;
+        @apply text-transparent bg-gradient-to-tr bg-clip-text from-orange-500 via-pink-500 to-red-500;
     } */
 </style>
