@@ -21,6 +21,7 @@
                 <NuxtLink to="/about-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">About Us</NuxtLink>
                 <NuxtLink to="/services" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Services</NuxtLink>
                 <NuxtLink to="/how-we-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">How We Work</NuxtLink>
+                <NuxtLink to="/our-work" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Our Work</NuxtLink>
                 <NuxtLink to="/contact-us" class="text-gray-700 lg:font-medium lg:mx-6 hover:text-orange-500">Contact Us</NuxtLink>
             </div>
         </div>
@@ -53,7 +54,7 @@ const toggleDrawer = () => {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="postcss" scoped>
     nav.stay-sticky {
         @apply bg-white py-5 shadow-md transition-all duration-300 ease-in-out;
     }
