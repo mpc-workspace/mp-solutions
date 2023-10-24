@@ -1,7 +1,7 @@
 <script setup>
     const projects = ref([
         {
-            title: 'CASSREAL',
+            title: 'CASSAREAL',
             description: 'Cassareal is a comprehensive online platform for real estate that provides a seamless and efficient way for users to buy, sell, and rent properties.',
             category: 'Real Estate',
             image: 'https://drive.google.com/uc?id=15hV1tW2Y7ZBOE5w_V_QbaBYtH9__xyUk',
@@ -110,20 +110,22 @@
 <template>
     <div v-for="project in projects" :key="project.title" class="relative group grid h-[32rem] w-full flex-col items-end justify-start overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
         <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-cover bg-clip-border bg-center text-gray-700 shadow-none transition-all duration-300 ease-in-out group-hover:scale-125" :style="`background-image: url('${project.image}')`">
-            <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+            <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/90 via-black/80"></div>
         </div>
-        <div class="relative p-6 px-6 py-14 md:px-12">
-            <h2 class="mb-3 block font-sans text-4xl font-medium tracking-normal text-white antialiased">
+        <div class="relative p-6 px-6 py-8 lg:px-12">
+            <h2 class="mb-3 block font-sans text-2xl lg:text-4xl md:text-3xl font-medium tracking-normal text-white antialiased">
                 {{ project.title }}
             </h2>
-            <p class="text-white line-clamp-3">{{ project.description }}</p>
+            <p class="text-white line-clamp-3 text-sm md:text-base">{{ project.description }}</p>
             <h5 class="block mb-4 mt-6 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-gray-300">
                 {{ project.category }}
             </h5>
+            <div class="lg:absolute lg:bottom-8 lg:right-6 lg:hidden lg:group-hover:flex">
+                <NuxtLink v-if="project.viewable" :to="project.permalink" target="__blank" rel="noopener" class="button-secondary relative rounded-full w-full lg:w-fit">
+                    Visit 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.25 4.5A1.75 1.75 0 0 0 4.5 6.25v11.5c0 .966.783 1.75 1.75 1.75h11.5a1.75 1.75 0 0 0 1.75-1.75v-4a.75.75 0 0 1 1.5 0v4A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3h4a.75.75 0 0 1 0 1.5h-4ZM13 3.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0V5.56l-5.22 5.22a.75.75 0 0 1-1.06-1.06l5.22-5.22h-4.69a.75.75 0 0 1-.75-.75Z"/></svg>
+                </NuxtLink>
+            </div>
         </div>
-        <NuxtLink v-if="project.viewable" :to="project.permalink" target="__blank" rel="noopener" class="button-secondary rounded-full absolute top-4 right-4 md:hidden group-hover:flex">
-            Visit 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.25 4.5A1.75 1.75 0 0 0 4.5 6.25v11.5c0 .966.783 1.75 1.75 1.75h11.5a1.75 1.75 0 0 0 1.75-1.75v-4a.75.75 0 0 1 1.5 0v4A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3h4a.75.75 0 0 1 0 1.5h-4ZM13 3.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0V5.56l-5.22 5.22a.75.75 0 0 1-1.06-1.06l5.22-5.22h-4.69a.75.75 0 0 1-.75-.75Z"/></svg>
-        </NuxtLink>
     </div>
 </template>
