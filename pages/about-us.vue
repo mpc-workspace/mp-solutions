@@ -16,7 +16,7 @@
     <section class="py-24 bg-gray-50">
         <div class="container flex flex-col items-center xl:flex-row">
             <div class="flex justify-center xl:w-1/2">
-                <img class="h-auto w-auto sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-lg" src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
+                <img class="h-auto w-auto sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-lg" src="/logo.svg" alt="">
             </div>
 
             <div class="flex flex-col text-center xl:text-start mt-6 xl:items-start xl:w-1/2 xl:mt-0">
